@@ -1,5 +1,11 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    .banner_section {
+        padding-bottom: 0;
+    }
+    .beyond_services {
+        padding: 30px 0;
+    }
     .banner_contents h1 {
         font-size: 26px;
     }
@@ -69,18 +75,23 @@
       .right_timeline li:nth-child(6) {
         right:0;
       }
-
       .successfull_section {
-        padding: 110px 0;
+        padding: 80px 0;
     }
     .validarion_section {
-        padding: 110px 0;
+        padding: 80px 0;
     }
     .validation_contents_wrapper h1 {
         font-size: 26px;
     }
     .validation_contents_wrapper h4 {
         font-size: 22px;
+    }
+    .contact_form_wrapper {
+        padding: 2rem 1rem;
+    }
+    .footer_section {
+        padding: 20px 0 5px 0;
     }
 }
 
