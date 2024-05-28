@@ -1,0 +1,267 @@
+
+:root {
+  --main-color: #070707;
+  --hover-color:#15cf51;
+}
+body{
+  background: var(--main-color);
+  color: #fff;
+}
+a{
+  text-decoration: none;
+}
+/* ============== Header Style Start ========== */
+.main_header{
+  padding: 10px 0;
+  background: #111111;
+}
+.header_logo img{
+  width: 200px;
+}
+.main_header_menu{}
+.main_header_menu ul{}
+.main_header_menu ul li{}
+.main_header_menu ul li a{
+  font-weight: 700;
+  margin: 0 1rem;
+  color: #fff;
+  font-size: 17px;
+}
+.main_header_menu ul li a:hover{
+  color: var(--hover-color);
+}
+.main_header_menu ul li .active{
+  color: var(--hover-color) !important;
+}
+/* ============== Header Style End ========== */
+
+
+
+/* ============= Banner Style Css Start =========== */
+.banner_section{
+  padding: 60px 0;
+}
+.banner_contents{}
+.banner_contents h1{
+  margin-bottom: 1.6rem;
+  font-size: 36px;
+}
+.banner_contents p{
+  font-size: 17px;
+  line-height: 36px;
+}
+/* ============= Banner Style Css End =========== */
+
+
+/* ========== Beyond Services Style Css STart ------------- */
+.beyond_services{
+  padding: 60px 0;
+}
+
+.service_item {
+  padding: 2rem;
+  background: #000;
+  border-radius: 10px;
+}
+/* === HEADING STYLE #1 === */
+.heading_style h1 {
+  font-size: 36px;
+  padding-bottom: 5px;
+}
+.heading_style h1 span{
+  font-size: 36px;
+  text-align: center;
+  padding-bottom: 5px;
+  color: var(--hover-color);
+  font-weight: 700;
+  position: relative;
+}
+.heading_style p{
+  margin-top: 2rem;
+}
+
+.heading_style h1:after {
+  width: 100px;
+  height: 4px;
+  display: block;
+  content: "";
+  position: relative;
+  left: 50%;
+  background-color: #2575fc;
+  left: 0;
+  top: 20px;
+  right: 0;
+  margin: auto;
+  border-radius: 30px;
+}
+.heading_style_left h1::after{
+  margin: inherit !important;
+
+}
+.service_item h2{
+  margin-bottom: 0;
+  font-size: 22px;
+}
+.service_item .line{
+  display: inline-block;
+  width: 100%;
+  height: 5px;
+  background: rgb(249,180,8);
+  background: linear-gradient(90deg, rgba(249,180,8,1) 43%, rgba(250,233,254,1) 84%);
+  border-radius: 30px;
+}
+.service_item ul li{
+  font-weight: 600;
+  font-size: 18px;
+  margin: 10px 0;
+}
+/* ========== Beyond Services Style Css End ------------- */
+
+
+/* ============= Beyond Successfull Style ========== */
+.successfull_section{
+  padding: 200px 0;
+  background: url(../imgs/bbg.jpg) center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;
+}
+.successfull_section::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(7, 7, 7, .4);
+  z-index: -1;
+}
+.beyond_successfull_item{
+  padding: 1rem;
+  border-left: 2px solid #fff;
+  grid-gap: 10px;
+  background: rgba(7, 7, 7, .6);
+  border-radius: 10px;
+  transition: .4s ease-in-out;
+}
+.beyond_successfull_item:hover{
+  background: rgba(21, 207, 81, .6);
+}
+.beyond_successfull_item .icon_box span{
+  font-size: 30px;
+}
+.beyond_successfull_item .heading_item h1{
+  font-size: 18px;
+}
+/* ============= Beyond Successfull Style ========== */
+
+/* ========== Validarion Style Css Start ========== */
+.validarion_section{
+  padding: 200px 0;
+  background: url(../imgs/security-professional-secret-5199236.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.validation_contents_wrapper{
+  padding: 2rem;
+  background: #23283b;
+  transition: .4s ease-in-out;
+  border-radius: 6px;
+}
+.validation_contents_wrapper:hover{
+  background: rgba(57, 62, 79, .6);
+}
+.validation_contents_wrapper h1{
+  font-weight: 700;
+  font-size: 42px;
+}
+.validation_contents_wrapper h4{
+  font-size: 32px;
+}
+.validation_contents_wrapper p{
+  margin-top: 1rem;
+  font-size: 17px;
+}
+
+.default_btn_style{
+  display: inline-block;
+  padding: 10px 1rem;
+  background: rgb(21,227,103);
+  background: linear-gradient(90deg, rgba(21,227,103,1) 43%, rgba(5,150,225,1) 77%);
+  border-radius: 4px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  transition: .4s ease-in-out;
+}
+.default_btn_style:hover{
+  background: rgb(21,227,103);
+  background: linear-gradient(90deg, rgba(21,227,103,1) 43%, rgba(237,186,15,1) 77%);
+}
+/* ========== Validarion Style Css End ========== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* +============== Footer Style Css Start ------------- */
+.footer_section{
+  padding: 80px 0;
+  background: #191f32;
+}
+.footer_logo img{
+  width:80%;
+}
+.footer_item{}
+.footer_heading h1{
+  margin-bottom: 1rem;
+  font-size: 24px;
+  color: var(--hover-color);
+  position: relative;
+}
+.footer_heading h1::before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: 0;
+  width: 3px;
+  height: 32px;
+  background: #ff7f50;
+  border-radius: 30px;
+}
+.footer_menu ul li a{
+  display: inline-block;
+  margin: 6px 0;
+  font-size: 17px;
+  color: #fff;
+  transition: .4s ease-in-out;
+}
+.footer_menu ul li a:hover{
+  color: var(--hover-color);
+}
+.footer_menu ul li a i{
+  font-size: 12px;
+}
+.footer_menu ul li a span i{
+  font-size: 20px;
+  margin-right: 1rem;
+}
+/* +============== Footer Style Css Start ------------- */
